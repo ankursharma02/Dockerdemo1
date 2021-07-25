@@ -1,5 +1,6 @@
 # Created by https://www.gitignore.io/api/python,vagrant
 # Edit at https://www.gitignore.io/?templates=python,vagrant
+
 ### Python ###
 # Byte-compiled / optimized / DLL files
 __pycache__/
@@ -87,6 +88,7 @@ ipython_config.py
 
 # celery beat schedule file
 celerybeat-schedule
+
 # SageMath parsed files
 *.sage.py
 
@@ -119,14 +121,17 @@ dmypy.json
 
 ### Python Patch ###
 .venv/
+
 ### Vagrant ###
 # General
 .vagrant/
 # Log files (if you are creating logs in debug mode, uncomment this)
 # *.logs
+
 ### Vagrant Patch ###
 *.box
  
+
 # End of https://www.gitignore.io/api/python,vagrant
 eb-package.zip
 static/
